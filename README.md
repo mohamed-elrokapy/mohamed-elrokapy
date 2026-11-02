@@ -8,7 +8,7 @@ Full-stack developer in Giza, Egypt, with 2+ years of experience building React 
 
 - **Front end:** React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit
 - **Back end and data:** Python, FastAPI, Strapi (Node.js), REST APIs, PostgreSQL
-- **Infrastructure and DevOps:** Linux, Docker, Docker Compose, GitHub Actions, Terraform and Kubernetes (kind) in a small lab project, Plesk, DNS, SSL, Vercel, Railway, Git and GitHub
+- **Infrastructure and DevOps:** Linux, Docker, Docker Compose, GitHub Actions, Terraform and Kubernetes (kind) in a small lab project, Hetzner Cloud, AWS (deploying an internal tool), Plesk, DNS, SSL, Vercel, Railway, Git and GitHub
 
 Most of my infrastructure work (Plesk, DNS, email deliverability, mailbox migration) is done for company websites at FloLabs, so it is private and not in the repositories below.
 
