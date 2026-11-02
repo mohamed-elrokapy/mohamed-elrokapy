@@ -8,7 +8,7 @@ Full-stack developer in Giza, Egypt, with 2+ years of experience building React 
 
 - **Front end:** React, Next.js, TypeScript, Tailwind CSS, Redux Toolkit
 - **Back end and data:** Python, FastAPI, Strapi (Node.js), REST APIs, PostgreSQL
-- **Infrastructure and DevOps:** Linux, Docker, Docker Compose, GitHub Actions, Plesk, DNS, SSL, Vercel, Railway, Git and GitHub
+- **Infrastructure and DevOps:** Linux, Docker, Docker Compose, GitHub Actions, Terraform and Kubernetes (kind) in a small lab project, Plesk, DNS, SSL, Vercel, Railway, Git and GitHub
 
 Most of my infrastructure work (Plesk, DNS, email deliverability, mailbox migration) is done for company websites at FloLabs, so it is private and not in the repositories below.
 
@@ -16,6 +16,7 @@ Most of my infrastructure work (Plesk, DNS, email deliverability, mailbox migrat
 
 | Project | What it is | Stack |
 | --- | --- | --- |
+| [terraform-k8s-devops-lab](https://github.com/mohamed-elrokapy/terraform-k8s-devops-lab) | Small lab: a FastAPI DNS lookup service deployed to a local kind cluster with Terraform (probes, HPA, network policy, Pod Security). CI applies and destroys it on every push, with a smoke test. Learning project, no cloud. Written with AI assistance, disclosed in the README. | Terraform, Kubernetes, kind, Python, FastAPI, Docker, GitHub Actions |
 | [dns-email-health-checker](https://github.com/mohamed-elrokapy/dns-email-health-checker) | Checks a domain's MX, SPF, DKIM and DMARC records and explains what is wrong. Tests and CI on every push. No hosted demo (it needs a backend). Written with AI assistance, disclosed in the README. | Python, FastAPI, Next.js, TypeScript, Docker, GitHub Actions |
 | [e-commerce-with-dashboard](https://github.com/mohamed-elrokapy/e-commerce-with-dashboard) | Online store with a role-guarded admin dashboard and a Strapi API. [Live demo](https://e-commerce-with-dashboard-neon.vercel.app) runs in browser-only demo mode. | React, Tailwind CSS, Strapi |
 | [e-commerceWithDashboard](https://github.com/mohamed-elrokapy/e-commerceWithDashboard) | Earlier standalone version with a pluggable backend. [Live demo](https://e-commerce-with-dashboard.vercel.app) | React, Vite, Tailwind CSS, Firebase |
